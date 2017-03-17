@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  
+<style>
+
+    .ui-page { background: transparent url(loginpic.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    }
+
+    
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Pashto Chat</title>
+</head>
+
+<body>
+    
+    
+  <div data-role="main" class="ui-content">
+  <div data-role="header" data-theme="b">
+
+    <h1>MY CONTACTS</h1>
+ 
+  </div>
+ 
+   
+    <form class="ui-filterable">
+      <input id="myFilter" data-type="search">
+    </form>
+    <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true" data-theme="b">
+      <li><a href="#">farid</a></li>
+        
+      <li><a href="#">Ahmad</a></li>
+       <li><a href="#">Mahmood</a></li>
+        <li><a href="#">Nazia</a></li>
+        <li><a href="#">Qasim</a></li>
+        <li><a href="#">Mahad</a></li>
+        <li><a href="#">afghanistan</a></li>
+        <li><a href="#">Pakistan</a></li>
+
+    </ul>
+  </div>
+    
+    
+    <div data-role="footer" data-position="fixed" data-theme="b">
+        <div data-role="navbar">
+        <ul>
+        <li><a href="file:///C:/Users/farid/Desktop/faridApp/www/user_profile.html" target="_blank" class="ui-btn ui-icon-user ui-btn-icon-left">My Profile</a></li>
+            
+
+            
+        <li><a href="file:///C:/Users/farid/Desktop/faridApp/www/chat.html" id="chat" class="ui-btn-active ui-icon-comment ui-btn-icon-right"target="_blank">Chat</a></li>
+        <li><a href="index.html" target="_blank" class="ui-btn ui-icon-action ui-btn-icon-right">Log out</a></li>
+        </ul>
+    
+   
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    
+</body>
+
+</html>
