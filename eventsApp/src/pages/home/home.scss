@@ -1,0 +1,13 @@
+page-home {
+  button {
+    margin-bottom: 32px;   
+  }
+
+}
+ion-page.home{
+    background-image: url('https://is4-ssl.mzstatic.com/image/thumb/Purple62/v4/37/98/a9/3798a999-88cf-2c01-587e-edca8531a473/source/256x256bb.jpg');
+}
+ion-page.home > ion-content{
+background-color: transparent;
+}
+
